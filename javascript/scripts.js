@@ -1,6 +1,5 @@
-//JQuery Example
-$(document).ready(function(){
-  $("p").click(function(){
-    $(this).hide();
-  });
+
+$(function(){
+	$("#header").load("../header.html");
+	$("#footer").load("../footer.html");
 });
