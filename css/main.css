@@ -7,9 +7,33 @@
 
 /* Increase the font size of the heading */
 .header h1 {
-  font-size: 40px;
+  font-size: 3.4em;
 }
 
 body {
-  background-color: lightblue;
+  background-color: black;
+}
+
+.index-tab2-font {
+    font-size: 1em;
+    font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
+	line-height: 1.3em;
+}
+
+.index-title-color {
+	color: #00995B;
+}
+
+.body-color {
+	color: #DBDBDB;
+}
+
+.index-tab-2 {
+	width: 16em;
+	height: auto;
+	min-height: 26.75em;
+}
+
+.git-link {
+	font-weight: bold;
 }
