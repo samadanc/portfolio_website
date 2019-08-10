@@ -1,18 +1,21 @@
-/* Header/logo Title */
+/* Header CRUD*/
 #header {
   padding: 1em;
   text-align: center;
-  background: #1abc9c;
-  .header-content {
-    max-width: 80%;
-    .header-name {
-      color: #DBDBDB;
-      font-size: 1.5em;
-      .first-name {
-        color: #00995B;
-      }
-    }
-  }
+  background: #303030;
+}
+
+.header-content {
+  max-width: 100%;
+}
+
+.header-name {
+  color: #DBDBDB;
+  font-size: 1.5em;
+}
+
+.first-name {
+  color: #00995B;
 }
 
 /* Increase the font size of the heading */
@@ -24,6 +27,11 @@
 
 body {
   background-color: black;
+}
+
+.my-picture {
+  width: 18em;
+  height: auto;
 }
 
 .index-tab2-font {
@@ -77,4 +85,8 @@ body {
 
 .pad-bottom {
   padding-bottom: var(--scale);
+}
+
+.pad-top {
+  padding-top: var(--scale);
 }
