@@ -1,13 +1,25 @@
 /* Header/logo Title */
-.header {
-  padding: 80px;
+#header {
+  padding: 1em;
   text-align: center;
   background: #1abc9c;
+  .header-content {
+    max-width: 80%;
+    .header-name {
+      color: #DBDBDB;
+      font-size: 1.5em;
+      .first-name {
+        color: #00995B;
+      }
+    }
+  }
 }
 
 /* Increase the font size of the heading */
-.header h1 {
+.page-title {
   font-size: 3.4em;
+  text-align: center;
+  color: #00995B;
 }
 
 body {
@@ -17,7 +29,7 @@ body {
 .index-tab2-font {
     font-size: 1em;
     font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
-	line-height: 1.3em;
+	  line-height: 0.75em;
 }
 
 .index-title-color {
@@ -34,6 +46,35 @@ body {
 	min-height: 26.75em;
 }
 
-.git-link {
+.bold-text {
 	font-weight: bold;
+}
+
+.black-font {
+  color: black;
+}
+
+.vertical-line-seperator {
+  position: relative;
+  margin: 24px 0px -112px 0;
+  left: 596px;
+  justify-self: start;
+  align-self: start;
+  display: block;
+  border-left: 1px solid rgba(0, 77, 46, 1);
+  height: 475px;
+  width: 0px;
+}
+
+.social-link-img {
+  width: 1.875em;
+  height: 1.875em;
+}
+
+.pad-right {
+  padding-right: var(--scale);
+}
+
+.pad-bottom {
+  padding-bottom: var(--scale);
 }
