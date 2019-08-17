@@ -1,8 +1,21 @@
+/* Root CRUD */
+:root {
+  --body-color: #DBDBDB;
+  --brand-color: #00995B;
+  --muted-color: #696969;
+  --header-bg-color: #303030;
+  --body-bg-color: black;
+}
+
 /* Header CRUD*/
 #header {
   padding: 1em;
   text-align: center;
-  background: #303030;
+  background: var(--header-bg-color);
+}
+
+.nav-item {
+  display: block;
 }
 
 .header-content {
@@ -10,23 +23,23 @@
 }
 
 .header-name {
-  color: #DBDBDB;
+  color: var(--body-color);
   font-size: 1.5em;
 }
 
 .first-name {
-  color: #00995B;
+  color: var(--brand-color);
 }
 
 /* Increase the font size of the heading */
 .page-title {
   font-size: 3.4em;
   text-align: center;
-  color: #00995B;
+  color: var(--brand-color);
 }
 
 body {
-  background-color: black;
+  background-color: var(--body-bg-color);
 }
 
 .my-picture {
@@ -42,11 +55,11 @@ body {
 }
 
 .index-title-color {
-	color: #00995B;
+	color: var(--brand-color);
 }
 
 .body-color {
-	color: #DBDBDB;
+	color: var(--body-color);
 }
 
 .bold-text {
@@ -86,6 +99,14 @@ body {
   padding-top: var(--scale);
 }
 
+.form-control {
+  color: var(--body-color);
+}
+
+.form-control:focus {
+  color: var(--body-color);
+}
+
 /* Footer CRUD */
 
 #footer {
@@ -93,5 +114,5 @@ body {
   left: 0;
   bottom: 0;
   width: 100%;
-  color: #696969;
+  color: var(--muted-color);
 }
