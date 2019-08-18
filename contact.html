@@ -26,8 +26,10 @@
 </head>
 <body>
 	<div id="header"></div>
-	<h1 class="page-title">Contact</h1>
-	<p class="body-color text-center">I Look forward to answering your email.</p>
+	<div class="pad-all" style="--scale: 1em;">
+		<h1 class="page-title">Contact</h1>
+		<p class="body-color text-center">I Look forward to answering your email.</p>
+	</div>
 	<div class="row">
 		<div class="col-sm-3"></div>
 		<div class="col-sm-4 body-color">
@@ -39,10 +41,13 @@
 				  <input class="form-control bg-transparent" type="email" id="email" placeholder="Email *">
 				</div>
 				<div class="form-group">
-				  <textarea class="form-control bg-transparent" id="subject" rows="1" placeholder="Subject"></textarea>
+				  <input class="form-control bg-transparent" type="text" id="subject" placeholder="Subject"></textarea>
 				</div>
 				<div class="form-group">
 				  <textarea class="form-control bg-transparent" id="message" rows="5" placeholder="Message"></textarea>
+				</div>
+				<div class="text-right">
+					<button type="submit" class="btn brand-btn">Send</button>
 				</div>
 			</form>
 		</div>
