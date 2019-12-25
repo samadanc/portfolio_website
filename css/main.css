@@ -73,6 +73,12 @@ body {
 	color: var(--body-color);
 }
 
+.snake-game {
+  min-width: 280px;
+  min-height: 280px;
+  border-color: #797979;
+}
+
 .bold-text {
 	font-weight: bold;
 }
