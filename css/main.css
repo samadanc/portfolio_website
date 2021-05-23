@@ -54,7 +54,7 @@ body {
 }
 
 .my-picture {
-  width: 14em;
+  width: 100%;
   height: auto;
   align-items: center;
 }
