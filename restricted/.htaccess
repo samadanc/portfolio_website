@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "My Protected Folder"
+AuthUserFile /users/labnet4/st1/samadanc/.www/PAST/.htpasswd
+require valid-user
